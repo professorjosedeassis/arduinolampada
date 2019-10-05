@@ -1,1 +1,1 @@
-# automacao-residencial-arduino
+# Automação residencial simples com arduino
