@@ -1,39 +1,35 @@
-/*
+/**
    Usando a biblioteca SoftwareSerial para modificar
    os pinos de comunicação serial e setar o módulo HC-06
-   @author - Professor José de Assis   
+   @author - Professor José de Assis
 */
 
-// A linha abaixo carrega a biblioteca SoftwareSerial
-// O uso desta biblioteca permite definir outros pinos
-// do Arduino como RX e TX, liberando a comunicação
-// serial via USB (sem esta biblioteca temos que usar
-// os pinos 0 e 1 que bloqueiam a comunicação via USB)
+/*
+  A linha abaixo carrega a biblioteca SoftwareSerial
+  O uso desta biblioteca permite definir outros pinos
+  do Arduino como RX e TX, liberando a comunicação
+  serial via USB dos pinos 0 e 1
+*/
 #include <SoftwareSerial.h>
 
 // A linha abaixo redefine os pinos RX e TX
-// No exemplo abaixo:
 // RX -> 2
 // TX -> 3
 SoftwareSerial MinhaSerial(2, 3);
 
 String comando = ""; //Variável global que irá receber os comandos
 
-void setup()
-{
+void setup() {
   Serial.begin(115200); //Inicia a serial em 115200
   // Não esqueça de alterar o monitor serial para este valor e ativar "Nenhum final-de-linha"
   Serial.println("Digite os comandos AT :"); //Inicie o monitor serial com este  texto
   MinhaSerial.begin(9600); //Inicia a serial configurada nas portas 2 e 3 em 9600 (padrão)
 }
 
-void loop()
-{
+void loop() {
   // Se o monitor serial estiver disponível
-  if (MinhaSerial.available())
-  {
-    while (MinhaSerial.available())
-    {
+  if (MinhaSerial.available()) {
+    while (MinhaSerial.available()) {
       comando += (char)MinhaSerial.read(); //adicionar a variável comando os valores digitados no Monitor serial
     }
     Serial.print(comando); //Mostra o comando digitado
@@ -41,8 +37,7 @@ void loop()
   }
 
   // Se a comunicação serial do módulo estiver disponível
-  if (Serial.available())
-  {
+  if (Serial.available()) {
     delay(10);
     MinhaSerial.write(Serial.read()); //Enviar o comando ao módulo bluetooth
   }
@@ -54,7 +49,7 @@ void loop()
   AT          OK            Teste de comunicação
   AT+VERSION  Versão        Mostra a versão do firmware
   AT+NAMExyz  OKsetname     Altera o nome do módulo (xyz -> Ex. nome)
-  AT+PIN1234  OKsetPIN      Altera a senha do módulo (4 dígitos)
+  AT+PIN1234  OKsetPIN      Altera a senha do módulo (ATENÇÃO: senha de 4 dígitos numéricos (1234 -> Ex. senha))
   AT+BAUD1    OK1200        Seta o baud rate em 1200
   AT+BAUD2    OK2400        Seta o baud rate em 2400
   AT+BAUD3    OK4800        Seta o baud rate em 4800
