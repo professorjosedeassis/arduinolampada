@@ -9,7 +9,7 @@ Estas aulas ensinam desde a montagem do circuito elétrico com o Arduino até o 
 * icones do APP
 ## Material extra:
 * Tutorial para setar o SSID e a senha do módulo HC-06
-* Diagrama elétrico para substituir o LED por uma lâmpada ou outro dispositivo ligado a rede elétrica
+* Diagrama elétrico para controlar uma lâmpada ou outro dispositivo ligado a rede elétrica.
 ## Autor
 Professor José de Assis
 ## Licença
