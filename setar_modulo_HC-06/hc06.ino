@@ -1,9 +1,7 @@
 /*
    Usando a biblioteca SoftwareSerial para modificar
-   os pinos de comunicação serial e setar os módulos
-   HC-05, HC-06 e JY-MCU
-   @author - Professor José de Assis
-   http://professorjosedeassis.com.br/curso-automacao-residencial-arduino/
+   os pinos de comunicação serial e setar o módulo HC-06
+   @author - Professor José de Assis   
 */
 
 // A linha abaixo carrega a biblioteca SoftwareSerial
@@ -54,9 +52,9 @@ void loop()
 
   Comando     Resposta      Função
   AT          OK            Teste de comunicação
-  AT+VERSION  OKlinvorV1.8  Mostra a versão do firmware
-  AT+NAMExyz  OKsetname     Altera o nome do módulo
-  AT+PIN1234  OKsetPIN      Altera a senha do módulo
+  AT+VERSION  Versão        Mostra a versão do firmware
+  AT+NAMExyz  OKsetname     Altera o nome do módulo (xyz -> Ex. nome)
+  AT+PIN1234  OKsetPIN      Altera a senha do módulo (4 dígitos)
   AT+BAUD1    OK1200        Seta o baud rate em 1200
   AT+BAUD2    OK2400        Seta o baud rate em 2400
   AT+BAUD3    OK4800        Seta o baud rate em 4800

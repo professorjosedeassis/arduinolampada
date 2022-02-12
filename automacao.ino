@@ -1,7 +1,6 @@
 /*
-   Aula 2 - Executando comandos através da comunicação serial
-   Professor José de Assis
-   http://professorjosedeassis.com.br/curso-automacao-residencial-arduino/
+   Executando comandos através da comunicação serial
+   Professor José de Assis   
 */
 
 int leitor; //criando uma variável que irá receber um valor
