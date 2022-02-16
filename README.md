@@ -8,7 +8,7 @@ Estas aulas ensinam desde a montagem do circuito elétrico com o Arduino até o 
 * Código fonte (Arduino e APP Inventor)
 * icones do APP
 ## Material extra:
-* Tutorial para setar o SSID e a senha do módulo HC-06
+* Tutorial para setar o SSID e a senha dos módulo HC-05 e HC-06
 * Diagrama elétrico para ligar um relé no Arduino e controlar uma lâmpada ou outros dispositivos ligados na rede elétrica.
 ## Autor
 Professor José de Assis
