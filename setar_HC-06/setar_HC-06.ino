@@ -1,6 +1,8 @@
 /*
   Setar módulo bluetooth HC-06
   @author Professor José de Assis
+  @link https://roboticapratica.com.br/
+  
    ------------------
   | Módulo | Arduino |
   | VCC    | 5V      |
@@ -9,7 +11,7 @@
   | RX *   | pino 3  |
    ------------------
 
-    Usar divisor de tensão
+   * Usar divisor de tensão
 
      ----- 1K ----- pino 3
    /
