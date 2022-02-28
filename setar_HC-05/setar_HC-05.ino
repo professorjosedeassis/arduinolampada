@@ -1,6 +1,7 @@
 /*
   Setar módulo bluetooth HC-05 ZS-040
   @author Professor José de Assis
+  @link https://roboticapratica.com.br/
   
    ------------------
   | Módulo | Arduino |
