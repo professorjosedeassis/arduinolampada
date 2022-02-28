@@ -17,7 +17,9 @@ Professor José de Assis
 * Tutorial para setar o SSID e a senha dos módulos HC-05 e HC-06
 * Diagrama elétrico para ligar um relé no Arduino e controlar uma lâmpada ou outros dispositivos ligados na rede elétrica.
 ### APP
-
+<p align="left">
+<a href="https://play.google.com/store/apps/details?id=appinventor.ai_josedeassisfilho.automacao_arduino_2" target="blank"><img align="center" src="https://github.com/professorjosedeassis/arduinolampada/blob/master/APPinventor/googleplay.png?raw=true" alt="googleplay" height="63" width="162"/></a>
+  
 ## Como apoiar os cursos gratuitos e projetos?
 Você pode:
 - Inscrever-se no canal do YouTube - [INSCREVA-SE!](https://www.youtube.com/c/RoboticapraticaBr/?sub_confirmation=1)
