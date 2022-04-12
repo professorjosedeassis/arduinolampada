@@ -17,5 +17,8 @@ void loop() {
     if (leitor == '1') { //se tecla 1 pressionada
       digitalWrite(13, !digitalRead(13)); //alterando o estado do pino 13 do arduino
     }
+     else
+       digitalWrite(14, !digitalRead(14)); //alterando o estado do pino 14 do arduino
+        
   }
 }
