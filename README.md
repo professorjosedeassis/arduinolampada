@@ -20,11 +20,11 @@ Professor José de Assis
 <p align="left">
 <a href="https://play.google.com/store/apps/details?id=appinventor.ai_josedeassisfilho.automacao_arduino_2" target="blank"><img align="center" src="https://github.com/professorjosedeassis/arduinolampada/blob/master/APPinventor/googleplay.png?raw=true" alt="googleplay" height="63" width="162"/></a>
   
-## Como apoiar os cursos gratuitos e projetos?
+## Como apoiar os tutoriais e projetos?
 ### Você pode:
 :heavy_check_mark: Inscrever-se no canal do YouTube - [INSCREVA-SE!](https://www.youtube.com/c/RoboticapraticaBr/?sub_confirmation=1)
 
-:heavy_check_mark: Compartilhar os cursos e projetos
+:heavy_check_mark: Compartilhar os tutoriais e projetos
 
 :heavy_check_mark: Seguir-me nas redes sociais:
 <p align="left">
