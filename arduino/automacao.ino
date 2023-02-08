@@ -1,6 +1,7 @@
 /*
    Executando comandos através da comunicação serial
-   Professor José de Assis   
+   Professor José de Assis 
+   nubia testando
 */
 
 int leitor; //criando uma variável que irá receber um valor
