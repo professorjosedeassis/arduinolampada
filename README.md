@@ -2,7 +2,7 @@
 
 # Automação residencial simples com arduino
 Aprenda passo a passo na prática a desenvolver um projeto simples de automação residencial para controle de lâmpadas ou outros dispositivos usando o smartphone.
-Estas aulas ensinam desde a montagem do circuito elétrico com o Arduino até o desenvolvimento do APP (Android) para controle dos dispositivos via bluetooth.
+Este tutorial ensina desde a montagem do circuito elétrico com o Arduino até o desenvolvimento do APP (Android) para controle dos dispositivos via bluetooth.
 ### Autor
 Professor José de Assis
 ### Demonstração do projeto
