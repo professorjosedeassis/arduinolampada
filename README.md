@@ -10,7 +10,7 @@ Professor José de Assis
 
 ![YouTube Video Views](https://img.shields.io/youtube/views/LPye23uA014?style=social)
 ### Iniciar tutorial:
-[Playlist](https://www.youtube.com/playlist?list=PLbEOwbQR9lqyx55WVP8BtlHTZE3iOHdNJ)
+▶️ [Playlist](https://www.youtube.com/playlist?list=PLbEOwbQR9lqyx55WVP8BtlHTZE3iOHdNJ)
 ### Material de apoio disponível neste repositório:
 * Código fonte (Arduino e APP Inventor)
 * icones do APP
