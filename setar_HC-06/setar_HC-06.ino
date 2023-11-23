@@ -17,10 +17,8 @@
    /
   RX
    \
-     ----- 2K ----- GND
+     ----- 2K ----- GND   
 
-    Modificar no rodapé do monitor serial:
-    Auto-rolagem | Ambos, NL e CR | 115200 velocidade
 */
 
 #include <SoftwareSerial.h>
@@ -29,17 +27,15 @@ String comando = "";
 void setup() {
   modulo.begin(9600);
   Serial.begin(115200);
-  Serial.println("                                       ");
-  Serial.println("Digite o comando AT na caixa de entrada");
-  Serial.println(" --------------------------------------------");
-  Serial.println("| COMANDO      | RESPOSTA                    |");
-  Serial.println("| AT           | OK                          |");
-  Serial.println("| AT+VERSION   | (versão do firmware)        |");
-  Serial.println("| AT+NAME      | (SSID)                      |");
-  Serial.println("| AT+NAME=     | (mudar SSID)                |");
-  Serial.println("| AT+PSWD      | (senha)                     |");
-  Serial.println("| AT+PSWD=\"\"   | (mudar senha (4 digitos))   |");
-  Serial.println(" --------------------------------------------"); 
+  Serial.println("1. Configure o monitor serial para [No Line Ending] e [115200 baud]");
+  Serial.println("2. Digite o comando desejado na caixa de entrada");
+  Serial.println(" ----------------------------------------------");
+  Serial.println("| COMANDO      | RESPOSTA                      |");
+  Serial.println("| AT           | OK                            |");
+  Serial.println("| AT+VERSION   | (identificar firmware)        |");
+  Serial.println("| AT+NAME      | (mudar SSID) Ex: AT+NAMEHC06  |");
+  Serial.println("| AT+PIN       | (mudar senha) Ex: AT+PIN1234  |");
+  Serial.println(" ----------------------------------------------"); 
   Serial.println("Resposta:");                     
 }
 
@@ -49,11 +45,11 @@ void loop() {
       comando += (char)modulo.read();
     }
     Serial.print(comando);
-    comando = "";
+    comando = "";    
   }
 
   if (Serial.available())  {
     delay(10);
-    modulo.write(Serial.read());
+    modulo.write(Serial.read());   
   }
 }
