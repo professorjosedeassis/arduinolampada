@@ -14,7 +14,7 @@ Professor José de Assis
 ### Material de apoio disponível neste repositório:
 * Código fonte (Arduino e APP Inventor)
 * icones do APP
-* Tutorial para o módulo bluetooth HC-06
+* Tutorial para configurar o módulo bluetooth HC-06
 * Diagrama elétrico para ligar um relé no Arduino e controlar uma lâmpada ou outros dispositivos ligados na rede elétrica.
 ### APP
 <p align="left">
