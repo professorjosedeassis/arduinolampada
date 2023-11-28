@@ -29,6 +29,7 @@ String comando = "";
 void setup() {
   modulo.begin(9600);  
   Serial.begin(115200);
+  Serial.println("Configurar modulo bluetooth HC-06:");
   Serial.println("1. Configure o Serial Monitor para [No Line Ending] e [115200 baud]");
   Serial.println("2. Digite o comando desejado na caixa de entrada");
   Serial.println("-----------------------------------------------------------");
@@ -39,7 +40,14 @@ void setup() {
   Serial.println("| AT+NAME    | Mudar SSID Ex: AT+NAMEHC-06  | OKsetname   |");
   Serial.println("| AT+PIN     | Mudar senha Ex: AT+PIN1234   | OKsetPIN    |");
   Serial.println("|            |(Senha numerica de 4 digitos) |             |");
-  Serial.println("----------------------------------------------------------");
+  Serial.println("| AT+BAUD    | Alterar velocidade (bps)     |             |");
+  Serial.println("|            | Ex: AT+BAUD4                 | OK9600      |");
+  Serial.println("|            | 4 -> 9600 bps  (default)     |             |");
+  Serial.println("|            | 5 -> 19200 bps               |             |");
+  Serial.println("|            | 6 -> 38400 bps               |             |");
+  Serial.println("|            | 7 -> 57600 bps               |             |");
+  Serial.println("|            | 8 -> 115200 bps              |             |");  
+  Serial.println("-----------------------------------------------------------");
   Serial.println("Resposta:");
 }
 
