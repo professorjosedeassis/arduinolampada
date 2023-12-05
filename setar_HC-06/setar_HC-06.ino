@@ -18,9 +18,7 @@
   RX
    \
      ----- 2K ----- GND   
-
-   * Configure o Serial Monitor para [No Line Ending] e [115200 baud]
-
+   
 */
 
 #include <SoftwareSerial.h>
@@ -46,7 +44,12 @@ void setup() {
   Serial.println("|            | 5 -> 19200 bps               |             |");
   Serial.println("|            | 6 -> 38400 bps               |             |");
   Serial.println("|            | 7 -> 57600 bps               |             |");
-  Serial.println("|            | 8 -> 115200 bps              |             |");  
+  Serial.println("|            | 8 -> 115200 bps              |             |");
+  Serial.println("|            | Obs: Se alterar a velocidade |             |");
+  Serial.println("|            | modifique a linha 28:        |             |");
+  Serial.println("|            | modulo.begin(9600);          |             |");
+  Serial.println("|            | Substituir 9600 pela nova    |             |");
+  Serial.println("|            | velocidade                   |             |");
   Serial.println("-----------------------------------------------------------");
   Serial.println("Resposta:");
 }
