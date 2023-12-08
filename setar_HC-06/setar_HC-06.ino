@@ -12,7 +12,7 @@
   --------------------
 
    * Usar divisor de tensão
-
+   
      ----- 1K ----- pino 3
    /
   RX
@@ -25,7 +25,7 @@
 SoftwareSerial modulo(2, 3);
 String comando = "";
 void setup() {
-  modulo.begin(9600);  
+  modulo.begin(9600);
   Serial.begin(115200);
   Serial.println("Configurar modulo bluetooth HC-06:");
   Serial.println("1. Configure o Serial Monitor para [No Line Ending] e [115200 baud]");
@@ -49,7 +49,8 @@ void setup() {
   Serial.println("|            | modifique a linha 28:        |             |");
   Serial.println("|            | modulo.begin(9600);          |             |");
   Serial.println("|            | Substituir 9600 pela nova    |             |");
-  Serial.println("|            | velocidade                   |             |");
+  Serial.println("|            | velocidade para poder se     |             |");
+  Serial.println("|            | comunicar com o modulo.      |             |");
   Serial.println("-----------------------------------------------------------");
   Serial.println("Resposta:");
 }
