@@ -2,7 +2,7 @@
    Executando comandos através da comunicação serial
    Professor José de Assis   
 */
-
+alterado o arquivo para teste
 int leitor; //criando uma variável que irá receber um valor
 
 void setup() {
