@@ -1,4 +1,5 @@
 ![GitHub](https://img.shields.io/github/license/professorjosedeassis/arduinolampada)
+![Arduino](https://img.shields.io/badge/Made%20with-Arduino-blue)
 
 # Automação residencial simples com arduino
 Aprenda passo a passo na prática a desenvolver um projeto simples de automação residencial para controle de lâmpadas ou outros dispositivos usando o smartphone.
